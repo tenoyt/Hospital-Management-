@@ -5,6 +5,10 @@ body {
     background-color: #e0f2f1; /* Soft blue-green background */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* Example media query for small screens */
+@media only screen and (max-width: 600px) {
+    /* Your responsive styles for small screens */
+}
 
 /* Style for the dashboard header */
 .dashboard-header {
