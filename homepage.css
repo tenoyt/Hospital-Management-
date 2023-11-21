@@ -1,0 +1,111 @@
+ #bottom{
+   position:relative; 
+   bottom: -61%;
+}
+.sidebar {
+    width: 300px;
+    background-color: rgba(96, 198, 178, 0.7);
+    position: fixed;
+    height:100%;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    padding:0;
+    margin:auto;
+    font-size: 25;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  
+
+  .sidebar a {
+    display: block;
+    color: azure;
+    padding: 30px;
+    text-decoration: none;
+    
+  }
+  
+
+  .sidebar a.active {
+    background-color: rgba(245, 245, 220, 0.833);
+    color: rgb(27, 15, 15);
+  }
+  
+
+  .sidebar a:hover:not(.active) {
+    background-color: beige !important;
+    color: black;
+  }
+
+  body{
+    background-image: url("hp1.jpg");
+     background-size:cover ;
+     overflow: hidden;
+     vertical-align: auto;
+   }
+#datetime{
+    background-color: rgba(96, 198, 178, 0.7);
+    font-size: 25;
+    position: relative;
+    padding-left: 30%;
+    left: 16.7%;
+    color: white;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.home{
+    text-align: center;
+    font-size: 120;
+    position: fixed;
+    right: 17%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(9, 132, 108);
+}
+.card{
+    padding: 12px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: content;
+    align-items: center;
+    color: white;
+    background-color: rgba(96, 198, 178, 0.7);
+    position:relative;
+    left: 36%;
+    top: 55%;
+}
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    
+}
+
+#announcement{
+    position:relative;
+    left: 44.8%;
+    top: 37%; 
+    font-size: 60;
+    color: rgb(9, 132, 108);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}  
+#card1{
+  font-size: 25;
+}
+#card2{
+  font-size: 25;
+}
+#card3{
+  font-size: 25;
+}
