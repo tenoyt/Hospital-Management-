@@ -4,6 +4,8 @@ body {
     padding: 0;
     background-color: #e0f2f1; /* Soft blue-green background */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 /* Style for the dashboard header */
@@ -89,12 +91,13 @@ body {
 .card {
     width: 30%; /* Adjust the width as needed */
     max-width: 300px; /* Limit width on larger screens */
-    margin: 0 0 20px; /* Adjust the margin to create space between cards */
+    margin: 0 0 30px; /* Adjust the margin to create more space between cards */
     background-color: #fff; /* White background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Rounded corners for a softer look */
     overflow: hidden; /* Hide any content that overflows the rounded corners */
     transition: transform 0.3s, box-shadow 0.3s;
+    height: 250px; /* Increased height of the cards */
 }
 
 .card:hover {
@@ -119,12 +122,12 @@ body {
 
 /* Styles for buttons inside cards */
 .card button {
-    margin-top: 10px;
+    margin-top: 15px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-/* Style for primary button */
-.card button.btn-primary {
-    background-color: #28a745;
+.card button:hover {
+    background-color: #218838;
     color: #fff;
 }
 
