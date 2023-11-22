@@ -32,7 +32,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Create Invoice</h5>
                         <p>Create a new invoice easily and efficiently.</p>
-                        <button class="btn btn-success">Click here</button>
+                        <a href="create_invoice.php" class="btn btn-success">Click here</a>
+
                     </div>
                 </div>
 
@@ -40,7 +41,8 @@
                     <div class="card-body">
                         <h5 class="card-title">View Invoice</h5>
                         <p>View and manage your existing invoices.</p>
-                        <button class="btn btn-success">Click here</button>
+                        <a href="view_invoice.php" class="btn btn-success">Click here</a>
+
                     </div>
                 </div>
             </div>
