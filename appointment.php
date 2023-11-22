@@ -21,11 +21,9 @@
         
         <!-- Sidebar links -->
         <div id="main">
-            <a href="C:\Users\risha\Documents\Ontario Tech University\Year 3\Data_Management\Appointment.php">Appointment</a>
-            <a href="eventOne.php">Invoice</a>
-            <a href="registered.php">Patient Info</a>
-            <a href="registered.php">Rooms</a>
-            <a href="registered.php">Make Payment</a>
+       
+             <a href="receptionist.php"><i class="fas fa-arrow-left"></i> Back</a>
+            
 
         </div>
         
