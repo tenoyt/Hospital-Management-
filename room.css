@@ -1,0 +1,101 @@
+/* Reset some default margin/padding and apply a background color to the body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2f1; /* Soft blue-green background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style for the dashboard header */
+.dashboard-header {
+    background-color: #004d40; /* Darker teal for the dashboard */
+    color: #fff; /* White text */
+    padding: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Example media query for small screens */
+@media only screen and (max-width: 600px) {
+    /* Your responsive styles for small screens */
+}
+
+.dashboard-header h2 {
+    margin: 0;
+}
+
+/* Style for the sidebar */
+.sidebar {
+    width: 100%; /* Full width on smaller screens */
+    max-width: 300px; /* Limit width on larger screens */
+    background-color: #004d40; /* Dark teal */
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+}
+
+/* Style for the top button in the sidebar */
+.top-button {
+    background-color: #00695c; /* Darker teal */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.top-button i {
+    margin-right: 5px; /* Add some spacing between icon and text */
+}
+
+.top-button p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Style for sidebar links */
+.sidebar a {
+    display: block;
+    color: #e0f2f1; /* Light teal text */
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+/* Active/current link style */
+.sidebar a.active {
+    background-color: #004d40; /* Dark teal */
+    color: #fff;
+}
+
+/* Hover effect for sidebar links */
+.sidebar a:hover:not(.active) {
+    background-color: #00796b; /* Teal */
+    color: #fff;
+}
+
+/* Styles for the content area */
+.content {
+    margin-left: 0; /* No margin on smaller screens */
+    padding: 20px;
+}
+
+/* Add this to your existing CSS */
+
+/* Styles for the card container and cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    margin-left: 25%;
+}
