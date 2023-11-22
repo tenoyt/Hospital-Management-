@@ -5,6 +5,7 @@ body {
     background-color: #e0f2f1; /* Soft blue-green background */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* Example media query for small screens */
 @media only screen and (max-width: 600px) {
     /* Your responsive styles for small screens */
@@ -87,27 +88,26 @@ body {
     padding: 20px;
 }
 
-/* Add this to your existing CSS */
+/* Your existing styles... */
 
 /* Styles for the card container and cards */
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around; /* Center cards and provide space between them */
+    margin: 20px 0; /* Adjust the margin to create space around the card container */
+    margin-left: 20%;
 }
 
 .card {
-    width: 80%; /* Adjust the width as needed */
-    max-width: 300px; /* Limit width on larger screens */
-    margin: 0 0 20px; /* Adjust the margin to create space between cards */
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px; /* Limit width on larger screens */
+    margin: 0 10px 20px; /* Adjust the margin to create space between cards */
     background-color: #fff; /* White background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Rounded corners for a softer look */
     overflow: hidden; /* Hide any content that overflows the rounded corners */
     transition: transform 0.3s, box-shadow 0.3s;
-    top: 100px;
-    left: 100px;
-    margin-left: 10px;
 }
 
 .card:hover {
@@ -116,16 +116,16 @@ body {
 }
 
 .card-body {
-    padding: 10px;
-    text-align: center;
+    padding: 20px; /* Increased padding for better readability */
+    text-align: left; /* Align text to the left */
 }
 
 .card-title {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-size: 1.8rem; /* Larger font size for card titles */
+    margin-bottom: 15px; /* Increased margin for better spacing */
 }
 
 .card-text {
-    font-size: 1rem;
-    color: #666;
+    font-size: 1.2rem; /* Larger font size for card text */
+    color: #333; /* Darker text color for better readability */
 }
