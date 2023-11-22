@@ -39,7 +39,7 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">View Invoice</h5>
+                        <h5 class="card-title">View Invoice History</h5>
                         <p>View and manage your existing invoices.</p>
                         <a href="view_invoice.php" class="btn btn-success">Click here</a>
 
