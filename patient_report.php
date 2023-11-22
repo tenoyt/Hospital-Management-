@@ -33,7 +33,7 @@
         <h3 style = "justify-content: center;"> Generate Patient Report</h3>
         <form>
           <div class="form-group">
-            <label for="formGroupExampleInput">Physician ID</label>
+            <label for="formGroupExampleInput">Report ID</label>
             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input">
           </div>
           <div class="form-group">
@@ -41,12 +41,16 @@
             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput">Date</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input">
+            <label for="formGroupExampleInput">Report Date</label>
+            <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Input">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Type</label>
+            <label for="formGroupExampleInput2">Diagnosis</label>
             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Treatment</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Extra Notes</label>
