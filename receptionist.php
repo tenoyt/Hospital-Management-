@@ -26,11 +26,12 @@
             
             <div id="main">
                 <a href="appointment.php">Appointment</a>
-                <a href="eventOne.php">Invoice</a>
-                <a href="registered.php">Patient Info</a>
-                <a href="registered.php">Rooms</a>
-                <a href="registered.php">Make Payment</a>
-                <a href="receptionist.php"><i class="fas fa-arrow-left"></i> Back</a>
+                <a href="invoice.php">Invoice</a>
+                <a href="patient_info.php">Patient Info</a>
+                <a href="room.php">Rooms</a>
+                <a href="payment.php">Make Payment</a>
+                <a href="homepage.php"><i class="fas fa-arrow-left"></i> Back</a>
+
 
             </div>
         </div>
