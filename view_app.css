@@ -1,0 +1,67 @@
+/* Reset some default margin/padding and apply a background color to the body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ec; /* Light green background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style for the sidebar */
+  .sidebar {
+    background-color: #004d40; /* Green color */
+    color: #fff; /* White text */
+    padding: 2%;
+    height: 100vh;
+  }
+  
+  /* Style for sidebar links */
+  .sidebar a {
+    display: block;
+    color: #e0f2f1; /* Light teal text */
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+  }
+  
+  /* Active/current link style */
+  .sidebar a.active {
+    background-color: #004d40; /* Dark teal */
+    color: #fff;
+  }
+  
+  /* Hover effect for sidebar links */
+  .sidebar a:hover:not(.active) {
+    background-color: #00796b; /* Teal */
+    color: #fff;
+  }
+  /* Styles for the content area */
+  .content {
+    padding: 2%;
+  }
+  
+  /* Style for the header */
+  .header {
+    background-color: #004d40;
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+  
+  /* Styles for the table */
+  .table {
+    background-color: #fff;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 1%;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
