@@ -32,7 +32,6 @@
                 <a href="payment.php">Make Payment</a>
                 <a href="homepage.php"><i class="fas fa-arrow-left"></i> Back</a>
 
-
             </div>
         </div>
 
