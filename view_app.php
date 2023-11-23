@@ -17,7 +17,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-2 col-md-3 sidebar">
-            <a href="invoice.php"><i class="fas fa-arrow-left"></i> Back</a>
+            <a href="app_physician.php"><i class="fas fa-arrow-left"></i> Back</a>
             </div>
             <div class="col-lg-10 col-md-9 content">
                 <div class="header">
