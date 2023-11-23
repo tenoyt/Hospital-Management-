@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
     <body>
+    <form action="RInvoice.php" method="post">
     <div class="dashboard-header">
             <h2>Invoice and Payment</h2>
         </div>
@@ -22,7 +23,7 @@
         <!-- Sidebar links -->
         <div id="main">
        
-             <a href="receptionist.php"><i class="fas fa-arrow-left"></i> Back</a>
+             <a href="invoice.php"><i class="fas fa-arrow-left"></i> Back</a>
             
 
         </div>
@@ -33,20 +34,16 @@
         <h3 style = "justify-content: center;">Invoice form</h3>
         <form>
           <div class="form-group">
-            <label for="formGroupExampleInput">Invoice ID</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input">
-          </div>
-          <div class="form-group">
             <label for="formGroupExampleInput2">Patient ID</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input">
+            <input type="text" name="PAID" class="form-control">
           </div>
           <div class="form-group">
             <label for="formGroupExampleInput">Invoice Date</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input">
+            <input type="date" name="DATE" class="form-control">
           </div>
           <div class="form-group">
             <label for="formGroupExampleInput2">Bill amount</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input">
+            <input type="text" name="BILL" class="form-control">
           </div>
           
         </form>
