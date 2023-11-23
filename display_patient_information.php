@@ -37,10 +37,10 @@
                        
                         <p>View and manage your existing appointments.</p>
                         <br>
-                        
+                        <form action="patient_information_ID.php" method="post">
                         <!-- Physician ID Input and Search Button -->
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Enter Physician ID" id="physicianId">
+                            <input type="text" name="PID" class="form-control" placeholder="Enter Patient ID" id="patientId">
                             <div class="input-group-append">
                                 <a href="patient_information_ID.php" class="btn btn-success">Search</a>
                             </div>
