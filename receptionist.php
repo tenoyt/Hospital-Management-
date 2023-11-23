@@ -48,7 +48,6 @@
                             <br><br>
                             3. <strong>Welcome Message:</strong> Welcome to our receptionist dashboard! We are excited to serve you. If you have any questions, feel free to contact us.
                             <br><br>
-                            
                         </p>
                     </div>
                 </div>
@@ -68,14 +67,10 @@
                         </p>
                     </div>
                 </div>
-               
             </div>
         </div>
     </div>
-
-    </div>
 </div>
-
 
 </body>
 </html>
