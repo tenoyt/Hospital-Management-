@@ -42,10 +42,9 @@
                     <div class="card-body">
                         <h5 class="card-title">View Appointment History</h5>
                         <p>View and manage your existing appointments.</p>
-                        
-                        <!-- Physician ID Input and Search Button -->
+                        <form action="view_app.php" method="post">
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Enter Physician ID" id="physicianId">
+                            <input type="text" name="PHYID" class="form-control" placeholder="Enter Physician ID" id="physicianId">
                             <div class="input-group-append">
                                 <a href="view_app.php" class="btn btn-success">Search</a>
                             </div>
