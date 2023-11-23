@@ -28,4 +28,4 @@ Hospital data Management software using MySQL Workbench, C++ and SQL
 <img src  = "final db dia.png">
 
 <h3>ER Diagram</h3>
-<img src = "ER.png">
+<img src = "ER.jpg">
