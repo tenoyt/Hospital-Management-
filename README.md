@@ -1,8 +1,8 @@
-<h1>Hospital Data Management</h1>
+<h1>Hospital Data Management System </h1>
 
-Hospital data Management software using MySQL Workbench, C++ and SQL
+Hospital data Management software using MySQL Workbench, PHP and SQL
 
-<h3>Need To Work On</h3>
+<h3> Future Works </h3>
 
 1. Developing a front-end for the project
 2. Pre-defining tasks for user interface
