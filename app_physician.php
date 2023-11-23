@@ -28,21 +28,28 @@
 
         <div class="content">
             <div class="card-container">
+                <!-- Create Appointment Card -->
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Create Appointment</h5>
                         <p>Create a new appointment for the patient.</p>
                         <a href="create_app.php" class="btn btn-success">Click here</a>
-
                     </div>
                 </div>
 
+                <!-- View Appointment History Card with Search -->
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">View Appointment History</h5>
                         <p>View and manage your existing appointments.</p>
-                        <a href="view_app.php" class="btn btn-success">Click here</a>
-
+                        
+                        <!-- Physician ID Input and Search Button -->
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Physician ID" id="physicianId">
+                            <div class="input-group-append">
+                                <a href="view_app.php" class="btn btn-success">Search</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
