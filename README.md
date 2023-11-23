@@ -15,7 +15,7 @@ Hospital data Management software using MySQL Workbench, PHP and SQL
 3. Install MYSQL Workbench
 
 <h3>Laguages and technology Used</h3>
-<p>
+
 1. MySQL Workbench
 2. CSS
 3. PHP
@@ -23,7 +23,7 @@ Hospital data Management software using MySQL Workbench, PHP and SQL
 5. HTML
 6. Java Script
 7. Bootstrap
-</p>
+
 <h3>Schema Diagram</h3>
 <img src  = "final db dia.png">
 
