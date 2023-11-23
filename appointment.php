@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
     <body>
+    <form action="RAppointment.php" method="post">
     <div class="dashboard-header">
             <h2>APPOINTMENTS</h2>
         </div>
@@ -34,23 +35,23 @@
         <form>
           <div class="form-group">
             <label for="formGroupExampleInput">Physician ID</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input">
+            <input type="text" name="PHYID" class="form-control">
           </div>
           <div class="form-group">
             <label for="formGroupExampleInput2">Patient ID</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input">
+            <input type="text" name="PATID" class="form-control">
           </div>
           <div class="form-group">
             <label for="formGroupExampleInput">Date</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input">
+            <input type="date" name="DATE" class="form-control">
           </div>
           <div class="form-group">
             <label for="formGroupExampleInput2">Type</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input">
+            <input type="text" name="TYPE" class="form-control">
           </div>
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Extra Notes</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <input type="text" name="NOTE" class="form-control">
           </div>
         </form>
         <button type="submit" class="btn btn-primary">Submit</button>
