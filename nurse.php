@@ -42,7 +42,7 @@
                         <h5 class="card-title">Announcements</h5>
                         <p class="card-text">
                             <!-- Announcement Content -->
-                            1. <strong>Office Closure:</strong> The office will be closed on [date] due to [reason]. We apologize for any inconvenience and appreciate your understanding.
+                            1. <strong>Office Closure:</strong> The office will be closed on 28th November, 2023 due to Bad Weather. We apologize for any inconvenience and appreciate your understanding.
                             <br><br>
                             2. <strong>New Policies or Procedures:</strong> We have implemented new procedures to enhance our services. Please review the updated policies on our website.
                             <br><br>
@@ -58,11 +58,11 @@
                         <h5 class="card-title">Events</h5>
                         <p class="card-text">
                             <!-- Event Content -->
-                            1. <strong>Upcoming Meetings:</strong> Monthly Staff Meeting - [date] at [time]. Location: [meeting room].
+                            1. <strong>Upcoming Meetings:</strong> Monthly Staff Meeting - 25th November, 2023 at 11:00 AM. Location: Meeting Room 1.
                             <br><br>
-                            2. <strong>Training Sessions:</strong> Customer Service Training - [date] from [start time] to [end time]. All staff members are required to attend.
+                            2. <strong>Training Sessions:</strong> Customer Service Training - 24th November, 2023 from 9:00 AM to 11:00 AM. All staff members are required to attend.
                             <br><br>
-                            3. <strong>Celebrations and Recognitions:</strong> Employee of the Month Celebration - Join us in congratulating [employee name] on their outstanding performance.
+                            3. <strong>Celebrations and Recognitions:</strong> Employee of the Month Celebration - Join us in congratulating Stacy on their outstanding performance.
                             <br><br>
                         </p>
                     </div>
