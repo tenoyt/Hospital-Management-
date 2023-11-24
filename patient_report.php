@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
     <body>
+    <form action="PPatient_report.php" method="post">
     <div class="dashboard-header">
             <h2> Reports</h2>
         </div>
@@ -33,28 +34,32 @@
         <h3 style = "justify-content: center;"> Generate Patient Report</h3>
         <form>
           <div class="form-group">
-            <label for="formGroupExampleInput">Report ID</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input">
+            <label for="formGroupExampleInput">REPORT_ID</label>
+            <input type="text" name="RID" class="form-control">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Patient ID</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input">
+            <label for="formGroupExampleInput">PATIENT_ID</label>
+            <input type="text" name="PID" class="form-control">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput">Report Date</label>
-            <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Input">
+            <label for="formGroupExampleInput2">PHYSICIAN_ID</label>
+            <input type="text" name="PHYID" class="form-control">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Diagnosis</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input">
+            <label for="formGroupExampleInput">REPORT_DATE</label>
+            <input type="date" name="DATE" class="form-control">
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Treatment</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="formGroupExampleInput2">DIAGNOSIS</label>
+            <input type="text" name="DIA" class="form-control">
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Extra Notes</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="formGroupExampleInput2">TREATMENT</label>
+            <input type="text" name="TREAT" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">NOTE</label>
+            <input type="text" name="NT" class="form-control">
           </div>
         </form>
         <button type="submit" class="btn btn-primary">Submit</button>
