@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-
 <div class="dashboard-header">
     <h2>Dashboard</h2>
 </div>
@@ -22,7 +21,7 @@
             </div>
             
             <div id="main">
-                <a href="homepage.php"><i class="fas fa-arrow-left"></i> Back</a>
+                <a href="receptionist.php"><i class="fas fa-arrow-left"></i> Back</a>
             </div>
         </div>
 
