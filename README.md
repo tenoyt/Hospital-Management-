@@ -2,14 +2,6 @@
 
 Hospital data Management software using MySQL Workbench, PHP and SQL
 
-<h3>Running the project on your Machine</h3>
-1. Make sure you have all the files required 
-2. Make sure you have downloaded and installed xampp on your machine. Link to download xampp - https://www.apachefriends.org/download.html
-3. Run all the commands to create the database and to insert the data on your machine.
-4. Make sure you change the username and password in all the .php files.
-5. Run homepage.php and you are good to go!
-
-
 <h3> Future Works </h3>
 
 1. Developing a front-end for the project
@@ -18,9 +10,11 @@ Hospital data Management software using MySQL Workbench, PHP and SQL
 
 <h3>Prerequistes</h3>
 
-1. Install XAMPP Server
-2. Any Editor (Preferably VS Code)
-3. Install MYSQL Workbench
+1. Make sure you have all the files required 
+2. Make sure you have downloaded and installed xampp on your machine. Link to download xampp - https://www.apachefriends.org/download.html
+3. Run all the commands to create the database and to insert the data on your machine.
+4. Make sure you change the username and password in all the .php files.
+5. Run homepage.php and you are good to go!
 
 <h3>Laguages and technology Used</h3>
 
