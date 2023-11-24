@@ -28,23 +28,22 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th>ID</th>
-                                <th>NAME</th>
-                                <th>DESCRIPTION</th>
-                                <th>COST</th>
+                                <th>Report ID</th>
+                                <th>Patient ID</th>
+                                <th>REPORT DETAILS</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php
-                            $conn = mysqli_connect("localhost", "root", "", "project");
+                            $conn = mysqli_connect("localhost", "root", "1234", "project");
                             if ($conn->connect_error) {
                                 die("Connection Failed:" . $conn->connect_error);
                             }
-                            $sql = "SELECT COST_CENTRE_ID, ITEM_NAME, ITEM_DESCRIPTION, ITEM_COST FROM COST_CENTRE";
+                            $sql = "SELECT REPORT_ID, PATIENT_ID, REPORT_DETAILS FROM LAB_REPORTS";
                             $result = $conn->query($sql);
                             if ($result->num_rows > 0) {
                                 while ($row = $result->fetch_assoc()) {
-                                    echo "<tr><td>" . $row["COST_CENTRE_ID"] . "</td><td>" . $row["ITEM_NAME"] . "</td><td>" . $row["ITEM_DESCRIPTION"] . "</td><td>" . $row["ITEM_COST"] . "</td></tr>";
+                                    echo "<tr><td>" . $row["REPORT_ID"] . "</td><td>" . $row["PATIENT_ID"] . "</td><td>" . $row["REPORT_DETAILS"] . "</td></tr>";
                                 }
                             } else {
                                 echo "<tr><td colspan='4'>0 result</td></tr>";
