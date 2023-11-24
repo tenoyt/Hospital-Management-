@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title> Cost Centre </title>
+    <title> Patient Information </title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,33 +21,40 @@
             </div>
             <div class="col-lg-10 col-md-9 content">
                 <div class="header">
-                    <h1>Cost Centre</h1>
+                    <h1>Patient Information</h1>
                 </div>
 
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th>ID</th>
-                                <th>NAME</th>
-                                <th>DESCRIPTION</th>
-                                <th>COST</th>
+                                <th>Patient ID</th>
+                                <th>Name</th>
+                                <th>Address</th>
+                                <th>City</th>
+                                <th>Phone</th>
+                                <th>Sex</th>
+                                <th>HCN</th>
+                                <th>Date Admitted</th>
+                                <th>Patient Bed ID</th>
+                                <th>Discharge Date</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php
-                            $conn = mysqli_connect("localhost", "root", "", "project");
+                            $conn = mysqli_connect("localhost", "root", "1234", "project");
                             if ($conn->connect_error) {
                                 die("Connection Failed:" . $conn->connect_error);
                             }
-                            $sql = "SELECT COST_CENTRE_ID, ITEM_NAME, ITEM_DESCRIPTION, ITEM_COST FROM COST_CENTRE";
+                            $pID = $_POST['PID'];
+                            $sql = "SELECT PATIENT_ID, PATIENT_NAME, PATIENT_ADDRESS, CITY_PROV_PC, TELEPHONE, SEX, HCN, DATE_ADMITTED, PATIENT_BED_ID, DISCHARGE_DATE FROM PATIENT where PATIENT_ID = '$pID'";
                             $result = $conn->query($sql);
                             if ($result->num_rows > 0) {
                                 while ($row = $result->fetch_assoc()) {
-                                    echo "<tr><td>" . $row["COST_CENTRE_ID"] . "</td><td>" . $row["ITEM_NAME"] . "</td><td>" . $row["ITEM_DESCRIPTION"] . "</td><td>" . $row["ITEM_COST"] . "</td></tr>";
+                                    echo "<tr><td>" . $row["PATIENT_ID"] . "</td><td>" . $row["PATIENT_NAME"] . "</td><td>" . $row["PATIENT_ADDRESS"] . "</td><td>" . $row["CITY_PROV_PC"] . "</td><td>" . $row["TELEPHONE"] . "</td><td>" . $row["SEX"] . "</td><td>" . $row["HCN"] . "</td><td>" . $row["DATE_ADMITTED"] . "</td><td>" . $row["PATIENT_BED_ID"] . "</td><td>" . $row["DISCHARGE_DATE"] . "</td></tr>";
                                 }
                             } else {
-                                echo "<tr><td colspan='4'>0 result</td></tr>";
+                                echo "<tr><td colspan='10'>0 result</td></tr>";
                             }
                             $conn->close();
                             ?>
