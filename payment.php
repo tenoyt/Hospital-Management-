@@ -9,7 +9,6 @@
 
 </head>
 <body>
-
     
     <div class="sidebar">
         <!-- New non-clickable and static button in the navbar -->
@@ -30,24 +29,21 @@
     </div>
 <div class="payment-container">
     <h2>Payment Information</h2>
-    <form action="#" method="post">
-        <label for="cardNumber">Payment ID:</label>
-        <input type="text" id="cardNumber" name="cardNumber" placeholder="Payment ID" required>
-
+    <form action="RPayment.php" method="post">
         <label for="cardNumber">Invoice ID:</label>
-        <input type="text" id="cardNumber" name="cardNumber" placeholder="Invoice ID" required>
+        <input type="text" id="cardNumber" name="IID" placeholder="Invoice ID" required>
 
         <label for="expiryDate">Payment Date:</label>
-        <input type="date" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required>
+        <input type="date" id="expiryDate" name="DATE" placeholder="MM/YYYY" required>
 
         <label for="cvv">Amount Due:</label>
-        <input type="text" id="cvv" name="cvv" placeholder="CAD" required>
+        <input type="text" id="cvv" name="AMOUNT" placeholder="CAD" required>
 
         <label for="cardHolder">Amount Paid:</label>
-        <input type="text" id="cardHolder" name="cardHolder" placeholder="CAD" required>
+        <input type="text" id="cardHolder" name="PAID" placeholder="CAD" required>
 
         <label for="cardHolder">Payment Method:</label>
-        <input type="text" id="cardHolder" name="cardHolder" placeholder="Payment Method" required>
+        <input type="text" id="cardHolder" name="PAYMENT" placeholder="Payment Method" required>
 
         <button type="submit">Submit</button>
     </form>
