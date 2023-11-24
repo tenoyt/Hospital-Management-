@@ -36,15 +36,15 @@
                         </thead>
                         <tbody>
                             <?php
-                            $conn = mysqli_connect("localhost", "root", "", "project");
+                            $conn = mysqli_connect("localhost", "root", "1234", "project");
                             if ($conn->connect_error) {
                                 die("Connection Failed:" . $conn->connect_error);
                             }
-                            $sql = "SELECT COST_CENTRE_ID, ITEM_NAME, ITEM_DESCRIPTION, ITEM_COST FROM COST_CENTRE";
+                            $sql = "SELECT INVOICE_ID, PATIENT_ID, INVOICE_DATE, BILL_AMOUNT FROM INVOICE";
                             $result = $conn->query($sql);
                             if ($result->num_rows > 0) {
                                 while ($row = $result->fetch_assoc()) {
-                                    echo "<tr><td>" . $row["COST_CENTRE_ID"] . "</td><td>" . $row["ITEM_NAME"] . "</td><td>" . $row["ITEM_DESCRIPTION"] . "</td><td>" . $row["ITEM_COST"] . "</td></tr>";
+                                    echo "<tr><td>" . $row["INVOICE_ID"] . "</td><td>" . $row["PATIENT_ID"] . "</td><td>" . $row["INVOICE_DATE"] . "</td><td>" . $row["BILL_AMOUNT"] . "</td></tr>";
                                 }
                             } else {
                                 echo "<tr><td colspan='4'>0 result</td></tr>";
