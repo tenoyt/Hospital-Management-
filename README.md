@@ -2,12 +2,6 @@
 
 Hospital data Management software using MySQL Workbench, PHP and SQL
 
-<h3> Future Works </h3>
-
-1. Developing a front-end for the project
-2. Pre-defining tasks for user interface
-3. Publish the database for everyone to access
-
 <h3>Prerequistes</h3>
 
 1. Make sure you have all the files required 
@@ -25,6 +19,12 @@ Hospital data Management software using MySQL Workbench, PHP and SQL
 5. HTML
 6. Java Script
 7. Bootstrap
+
+<h3> Future Works </h3>
+
+1. Developing a front-end for the project
+2. Pre-defining tasks for user interface
+3. Publish the database for everyone to access
 
 <h3>Schema Diagram</h3>
 <img src  = "final db dia.png">
